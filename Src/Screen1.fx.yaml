@@ -1,0 +1,8 @@
+Screen1 As screen:
+
+    btnPrimary_1 As btnPrimary:
+        btnClick: =Navigate(Screen2, Fade)
+        btnColor: =RGBA(56, 96, 178, 1)
+        X: =189
+        Y: =408
+
