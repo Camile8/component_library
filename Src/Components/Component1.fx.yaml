@@ -1,0 +1,19 @@
+Component1 As CanvasComponent:
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =70
+    Width: =560
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    TextInput1 As text:
+        Default: ="Text input"
+        Height: =70
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =21
+        Width: =560
+        ZIndex: =1
+

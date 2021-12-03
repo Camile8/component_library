@@ -10,3 +10,8 @@ Screen1 As screen:
         X: =147
         Y: =312
 
+    Component1_1 As Component1:
+        X: =39
+        Y: =459
+        ZIndex: =2
+
