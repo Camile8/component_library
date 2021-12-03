@@ -1,0 +1,29 @@
+Component1 As CanvasComponent:
+    buttonColor: =RGBA(0, 0, 0, 1)
+    buttonText: ="Text"
+    buttontextColor: =RGBA(0, 0, 0, 1)
+    clickaction: =true
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =70
+    iconColor: =RGBA(0, 0, 0, 1)
+    Width: =280
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    Button2 As button:
+        Color: =Component1.buttontextColor
+        Fill: =Component1.buttonColor
+        Height: =70
+        OnSelect: =Component1.clickaction()
+        Size: =24
+        Text: =Component1.buttonText
+        Width: =280
+        ZIndex: =1
+
+    Icon1 As icon.Compose:
+        Color: =Component1.iconColor
+        Icon: =Icon.Compose
+        X: =15
+        ZIndex: =2
+

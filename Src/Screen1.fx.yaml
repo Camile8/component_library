@@ -1,0 +1,22 @@
+Screen1 As screen:
+
+    btn_1 As btn:
+        btnClick: =Navigate(Screen2, Fade)
+        btnColor: =RGBA(151, 0, 0, 1)
+        btnTextColor: =RGBA(255, 255, 255, 1)
+        Fill: =btn_1.iconColor
+        iconColor: =RGBA(167, 182, 203, 1)
+        text: ="Button"
+        X: =176
+        Y: =76
+
+    Component1_1 As Component1:
+        buttonColor: =RGBA(186, 202, 226, 1)
+        buttonText: ="aaa"
+        buttontextColor: =RGBA(99, 139, 44, 1)
+        clickaction: =Navigate(Screen2, Fade)
+        iconColor: =RGBA(9, 33, 98, 1)
+        X: =144
+        Y: =252
+        ZIndex: =2
+
