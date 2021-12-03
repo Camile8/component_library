@@ -1,0 +1,24 @@
+btnPrimary As CanvasComponent:
+    btnClick: =true
+    btnColor: =RGBA(0, 0, 0, 1)
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =50
+    Width: =250
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    Button As button:
+        BorderThickness: =0
+        Fill: =btnPrimary.btnColor
+        Height: =50
+        OnSelect: =btnPrimary.btnClick()
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =24
+        Text: ="Button"
+        Width: =250
+        ZIndex: =1
+

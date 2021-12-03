@@ -1,0 +1,44 @@
+btnLabel As CanvasComponent:
+    btnClick: =true
+    btnColor: =RGBA(0, 0, 0, 1)
+    btnHeight: |
+        =70
+    btnText: ="Text"
+    btnTextColor: =RGBA(0, 0, 0, 1)
+    btnTextSize: =100
+    btnWidth: =280
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =btnLabel.btnHeight
+    iconColor: =RGBA(0, 0, 0, 1)
+    iconHeight: =100
+    iconWidth: =100
+    Width: =btnLabel.btnWidth
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    Button6 As button:
+        Color: =btnLabel.btnTextColor
+        Fill: =btnLabel.btnColor
+        Height: =btnLabel.btnHeight
+        HoverFill: =ColorFade(btnLabel.btnColor, -10%)
+        OnSelect: =btnLabel.btnClick()
+        PaddingLeft: =btnLabel.btnWidth/10
+        PressedFill: =btnLabel.btnColor
+        RadiusTopLeft: |
+            =10
+        Size: =btnLabel.btnTextSize
+        Text: =btnLabel.btnText
+        Width: =btnLabel.btnWidth
+        ZIndex: =1
+
+    Icon3 As icon.Compose:
+        Color: =btnLabel.iconColor
+        Height: =btnLabel.iconHeight
+        Icon: =Icon.Compose
+        Width: =btnLabel.iconWidth
+        X: |
+            =(btnLabel.btnWidth/2) -   2 * btnLabel.iconWidth
+        Y: =(btnLabel.btnHeight - Icon3.Height)/2
+        ZIndex: =2
+

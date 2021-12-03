@@ -1,0 +1,23 @@
+Screen1 As screen:
+
+    btn_1 As btn:
+        btnClick: =Navigate(Screen2, Fade)
+        btnColor: =RGBA(151, 0, 0, 1)
+        btnTextColor: =RGBA(255, 255, 255, 1)
+        Fill: =btn_1.iconColor
+        iconColor: =RGBA(167, 182, 203, 1)
+        text: ="Button"
+
+    btnLabel_1 As btnLabel:
+        btnColor: =RGBA(136, 160, 209, 1)
+        btnText: ="wuyanzu"
+        btnTextColor: =RGBA(227, 234, 243, 1)
+        btnTextSize: =18
+        Height: =btnLabel_1.btnHeight
+        iconColor: =RGBA(175, 191, 224, 1)
+        iconHeight: =10050
+        iconWidth: =50
+        Width: =btnLabel_1.btnWidth
+        Y: =285
+        ZIndex: =2
+
