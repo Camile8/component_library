@@ -1,0 +1,35 @@
+btn As CanvasComponent:
+    btnClick: ="Text"
+    btnColor: =RGBA(0, 0, 0, 1)
+    btnTextColor: =RGBA(0, 0, 0, 1)
+    Fill: =btn.iconColor
+    Height: =70
+    iconColor: =RGBA(0, 0, 0, 1)
+    text: ="Text"
+    Width: =280
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    Button1 As button:
+        Color: =btn.btnTextColor
+        Fill: =btn.btnColor
+        Height: =70
+        OnSelect: =btn.btnClick()
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
+        Size: =24
+        Text: =btn.text
+        Width: =280
+        ZIndex: =1
+
+    Star1 As star:
+        Fill: =btn.iconColor
+        Height: =50
+        Width: =62
+        X: =11
+        Y: =10
+        ZIndex: =2
+

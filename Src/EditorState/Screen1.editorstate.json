@@ -1,10 +1,31 @@
 {
-  "btnPrimary_1": {
+  "btn_1": {
     "AllowAccessToGlobals": true,
     "ControlPropertyState": [
-      "Fill",
-      "Height",
-      "Width",
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "RGBA(0, 0, 0, 0)",
+        "InvariantPropertyName": "Fill",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "",
+        "InvariantPropertyName": "Height",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "",
+        "InvariantPropertyName": "Width",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
       "X",
       "Y",
       "ZIndex",
@@ -19,7 +40,31 @@
       {
         "AFDDataSourceName": "",
         "AutoRuleBindingEnabled": false,
-        "AutoRuleBindingString": "true",
+        "AutoRuleBindingString": "",
+        "InvariantPropertyName": "iconColor",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "",
+        "InvariantPropertyName": "text",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "",
+        "InvariantPropertyName": "btnTextColor",
+        "IsLockable": false,
+        "NameMapSourceSchema": "?"
+      },
+      {
+        "AFDDataSourceName": "",
+        "AutoRuleBindingEnabled": false,
+        "AutoRuleBindingString": "\"Text\"",
         "InvariantPropertyName": "btnClick",
         "IsLockable": false,
         "NameMapSourceSchema": "?"
@@ -39,10 +84,20 @@
       "Description": ""
     },
     "MetaDataIDKey": "",
-    "Name": "btnPrimary_1",
+    "Name": "btn_1",
     "ParentIndex": 0,
     "PersistMetaDataIDKey": false,
     "Properties": [
+      {
+        "Category": "Data",
+        "PropertyName": "text",
+        "RuleProviderType": "Unknown"
+      },
+      {
+        "Category": "Data",
+        "PropertyName": "iconColor",
+        "RuleProviderType": "Unknown"
+      },
       {
         "Category": "Data",
         "PropertyName": "btnColor",
@@ -50,7 +105,7 @@
       },
       {
         "Category": "Data",
-        "PropertyName": "btnClick",
+        "PropertyName": "btnTextColor",
         "RuleProviderType": "Unknown"
       },
       {
@@ -82,6 +137,11 @@
         "Category": "Design",
         "PropertyName": "Fill",
         "RuleProviderType": "System"
+      },
+      {
+        "Category": "Behavior",
+        "PropertyName": "btnClick",
+        "RuleProviderType": "Unknown"
       }
     ],
     "StyleName": "",

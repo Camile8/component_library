@@ -1,0 +1,72 @@
+{
+  "ComponentAllowCustomization": true,
+  "ComponentChangedSinceFileImport": true,
+  "ComponentManifest": {
+    "AllowAccessToGlobals": false,
+    "AllowCustomization": true,
+    "Description": "",
+    "Name": "btn",
+    "TemplateGuid": "37892f153dcb4183bab6050aed9efdad"
+  },
+  "ComponentType": "CanvasComponent",
+  "CustomGroupControlTemplateName": "",
+  "CustomProperties": [
+    {
+      "Category": 0,
+      "DisplayName": "btn color",
+      "Hidden": false,
+      "Name": "btnColor",
+      "PropertyDataTypeKey": "Color",
+      "Tooltip": "A custom property",
+      "Type": "{\"Version\":\"1.317\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "icon color",
+      "Hidden": false,
+      "Name": "iconColor",
+      "PropertyDataTypeKey": "Color",
+      "Tooltip": "A custom property",
+      "Type": "{\"Version\":\"1.317\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "text",
+      "Hidden": false,
+      "Name": "text",
+      "PropertyDataTypeKey": "String",
+      "Tooltip": "A custom property",
+      "Type": "{\"Version\":\"1.317\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 0,
+      "DisplayName": "btn text color",
+      "Hidden": false,
+      "Name": "btnTextColor",
+      "PropertyDataTypeKey": "Color",
+      "Tooltip": "A custom property",
+      "Type": "{\"Version\":\"1.317\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"Color\",\"EnumString\":\"\",\"Type\":[]}}"
+    },
+    {
+      "Category": 2,
+      "DisplayName": "btn click",
+      "Hidden": false,
+      "Name": "btnClick",
+      "PropertyDataTypeKey": "String",
+      "Tooltip": "A custom property",
+      "Type": "{\"Version\":\"1.317\",\"Type\":{\"Name\":\"Root\",\"Kind\":\"String\",\"EnumString\":\"\",\"Type\":[]}}"
+    }
+  ],
+  "FirstParty": true,
+  "Id": "http://microsoft.com/appmagic/Component",
+  "IsComponentLocked": false,
+  "IsComponentTemplate": true,
+  "IsCustomGroupControlTemplate": false,
+  "IsPcfControl": false,
+  "IsPremiumPcfControl": false,
+  "IsWidgetTemplate": false,
+  "LastModifiedTimestamp": "637741091583256110",
+  "Name": "37892f153dcb4183bab6050aed9efdad",
+  "OverridableProperties": {},
+  "Version": "637741092225070432"
+}
