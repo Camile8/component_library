@@ -1,0 +1,17 @@
+Component2 As CanvasComponent:
+    actionclicaa: =true
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =70
+    Width: =280
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    Button2 As button:
+        Height: =70
+        OnSelect: =Component2.actionclicaa()
+        Size: =24
+        Text: ="Button"
+        Width: =280
+        ZIndex: =1
+

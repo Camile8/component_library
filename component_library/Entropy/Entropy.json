@@ -1,0 +1,75 @@
+{
+  "ComponentIndexes": {
+    "btn": 2,
+    "btnPrimary": 3,
+    "Component2": 4,
+    "Component2_1": 5
+  },
+  "ControlUniqueIds": {
+    "App": 1,
+    "btn": 5,
+    "btn_1": 11,
+    "btnPrimary": 8,
+    "Button": 9,
+    "Button1": 6,
+    "Button2": 15,
+    "Component2": 14,
+    "Component2_1": 16,
+    "Screen1": 10,
+    "Screen2": 13,
+    "Star1": 7
+  },
+  "FunctionParamsInvariantScripts": {},
+  "HeaderLastSavedDateTimeUTC": "12/06/2021 03:18:49",
+  "LocalDatabaseReferencesAsEmpty": false,
+  "LocalResourceFileNames": {},
+  "LocalResourceRootPaths": {},
+  "OrderComponentMetadata": {
+    "22529cb9170642caac2a4e49b0d1ad87": 1,
+    "37892f153dcb4183bab6050aed9efdad": 0,
+    "71c70c8290dd4ed6b66e3f117a5486cd": 2
+  },
+  "OrderComponentTemplate": {
+    "22529cb9170642caac2a4e49b0d1ad87": 1,
+    "37892f153dcb4183bab6050aed9efdad": 0,
+    "71c70c8290dd4ed6b66e3f117a5486cd": 2
+  },
+  "OrderDataSource": {},
+  "OrderGroupControls": {},
+  "OrderTemplate": {},
+  "OrderXMLTemplate": {
+    "button": 0,
+    "star": 1
+  },
+  "PublishOrderIndices": {
+    "App": 0,
+    "btn": 1,
+    "btn_1": 0,
+    "btnPrimary": 4,
+    "Button": 4,
+    "Button1": 2,
+    "Button2": 5,
+    "Component2": 0,
+    "Component2_1": 1,
+    "Screen1": 9,
+    "Screen2": 12,
+    "Star1": 3
+  },
+  "ResourcesJsonIndices": {},
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.048636699999999998,
+    "ControlCount": {
+      "22529cb9170642caac2a4e49b0d1ad87": 1,
+      "37892f153dcb4183bab6050aed9efdad": 2,
+      "4f990c6ed7fd441e97e9211ed7bd1176": 2,
+      "71c70c8290dd4ed6b66e3f117a5486cd": 1,
+      "button": 2,
+      "screen": 2,
+      "star": 1,
+      "text": 1
+    },
+    "DeserializationLoadTime": 0.1095945,
+    "ErrorCount": 0
+  }
+}
