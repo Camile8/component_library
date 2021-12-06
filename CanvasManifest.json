@@ -3,7 +3,7 @@
   "Header": {
     "DocVersion": "1.31s7",
     "MinVersionToLoad": "1.314",
-    "MSAppStructureVersion": "2.0"
+    "MSAppStructureVersion": "1.0"
   },
   "Properties": {
     "AppCreationSource": "AppFromScratch",
